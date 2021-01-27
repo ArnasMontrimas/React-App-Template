@@ -44,7 +44,7 @@ module.exports = merge(common, {
             new TerserPlugin(),
             new HtmlMinimizerPlugin({
                 minimizerOptions: {
-                    collapseWhitespace: false,
+                    collapseWhitespace: true,
                     removeComments: true,
                     removeAttributeQuotes: true,
                     removeEmptyAttributes: true,
